@@ -38,6 +38,13 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
+        .content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
         .content h2 {
             color: #000;
             margin: 20px 0;
@@ -65,7 +72,11 @@
 
         .rating .stars {
             font-size: 1.2rem;
-            color: #f4b400;
+            color: #f4b400; /* Golden yellow color for the stars */
+        }
+
+        .rating div {
+            font-size: 1rem;
         }
 
         .details {
@@ -89,14 +100,18 @@
         .buttons a {
             text-decoration: none;
             color: #fff;
-            padding: 15px 30px;
-            border-radius: 8px;
+            padding: 15px 30px; /* Increased padding for larger button size */
+            border-radius: 8px; /* Slightly larger border-radius for aesthetic purposes */
             font-weight: bold;
-            font-size: 1.2rem;
+            font-size: 1.2rem; /* Increased font size */
         }
 
         .buttons .download {
             background: #007bff;
+        }
+
+        .buttons .try-app {
+            background: #555;
         }
 
         .buttons a:hover {
@@ -110,10 +125,10 @@
     </header>
     <main>
         <div class="content">
-            <h2>Best Loan Service</h2>
+            <h2> Best Loan Service</h2>
             <p>A convenient, secure, and stable lending platform.</p>
-            <p class="warning">Get approved in less than a minute. Complete your identity verification and get access to loans up to BDT 10,00,000.</p>
-
+            <p class="warning">Get approved in less than a minute. Complete your identity verification and get access to loans up to BDT 10,00000.</p>
+            
             <div class="rating">
                 <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
                 <div>4.5 (33 reviews)</div>
@@ -123,9 +138,9 @@
                 <p>Download size: 5.3 MB</p>
                 <p>Rated for 3+</p>
             </div>
-
+            
             <div class="buttons">
-                <a class="download" href="https://github.com/koi-batija/apk/raw/refs/heads/main/CapitalOne_1.1..apk">Download Apk</a>
+                <a href="https://github.com/koi-batija/apk/raw/refs/heads/main/CapitalOne_1.1..apk">Download Apk</a>
             </div>
         </div>
     </main>
